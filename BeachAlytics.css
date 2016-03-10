@@ -1,0 +1,53 @@
+.direct{color: #BD362F;}
+.email{color: #F89406;}
+.referral{color:#0044CC;}
+.organic-search{color:#51A351;}
+.paid-ads{color:#0088CC;}
+
+.direct:hover{
+    color:aqua;
+}
+.email:hover{color: ;}
+.referral:hover{color:;}
+.social-media:hover{color:;}
+.organic-search:hover{color:;}
+.paid-ads:hover{color:;}
+
+th{text-align: right;}
+
+thead{text-align:;}
+
+.site-model img{
+    max-height:275px ;
+}
+
+
+/* PB's CSS for Cool Circle*/
+.target{
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+.target img {
+  border-radius:50%;
+  position: absolute;
+  left: 50%;
+}
+.one {
+  z-index: 1;
+  margin-left: -150px;
+}
+.two {
+  z-index: 2;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.three {
+  z-index: 3;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+
+.target img:hover{opacity:0.5;}

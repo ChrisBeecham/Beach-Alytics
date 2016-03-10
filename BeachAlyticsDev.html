@@ -1,6 +1,5 @@
 <head>
     <title>BeachAlytics</title>
-    <link href="//favicon.ico" rel="icon" type="image/x-icon" />
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='BeachAlytics.css'>
@@ -57,8 +56,8 @@
     <div class='container'>
         <div class='row'>
             <blockquote>
-                <p class='h3'>Click On Any Term to Learn More</p>
-                <p class=''>See how each piece works together</p>
+                <p class='h3'>Hover Over a Term to Learn More</p>
+                <p class=''>Traffic from search engine results page. (Google, Yahoo)</p>
             </blockquote>
         </div>
     </div>
@@ -66,9 +65,8 @@
     <!-- Incoming & Target -->
     <div class='container'>
         <div class='row'>
-            <!-- Incoming Traffic -->
-            <div class='traffic col-xs-6'>  
-                <h3 class='text-center'>Incoming Traffic</h3>
+            <div class='incoming-traffic col-xs-6 text-right'>     
+                <h3 class='text-center'>1. Get More Visitors</h3> 
                 <ul class='list-unstyled'>
                     <li class='direct'>
                         <h3>Direct Traffic<span>----------></span></h3>
@@ -92,27 +90,26 @@
                     </li>
                 </ul>
             </div>
-            <!-- Target -->
-            <div class="target col-xs-6 text-right">
-                <img src="http://placehold.it/300/eeeeee" class="one"/>
-                <img src="http://placehold.it/200/cccccc" class="two"/>
-                <img src="http://placehold.it/100/dddddd" class="three"/>
+            <div class='site-model col-xs-6'>
+                <h3 class='text-center'>2. Increase Conversion Rate</h3>
+                <img src='photos/Target%20Grey.png' >
             </div>
         </div>
     </div>
     
+    
     <!-- Definition & Table -->
     <div class='container'>
         <div class='row'>
-            <div class='report-table col-sm-8'>
-                <table class='table table-condensed table-bordered text-center table-hover'>
+            <div class='report-table col-sm-9'>
+                <table class='table table-condensed table-striped text-center table-hover'>
                     <thead class='text-center'>
                         <tr>
                             <th></th>
-                            <th>Landing Page Visits</th>
-                            <th>Donation Page Visits</th>
-                            <th>Confirmation Page Visits</th>
-                            <th>Purchase Amount</th>
+                            <th>Landing Page</th>
+                            <th>Donation Page</th>
+                            <th>Confirmation Page</th>
+                            <th>Donation</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -154,11 +151,14 @@
                     </tbody>
                 </table>
             </div>
+            <div class='term-definition col-sm-3'>
+                
+                    <h3>Organic Search</h3>
+                    <hr>
+                    <p>Traffic from search engine results page. (Google, Yahoo)</p>
+                
+            </div>
         </div>
     </div>
-    
-    <!-- Form (For Interface Class) username, password,  repeat password, email, date-->
-    
-    
     
 </body>
