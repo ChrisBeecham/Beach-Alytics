@@ -24,10 +24,16 @@
     font-size:21px;
     font-weight: 300;
     line-height: 1.4;}
+.beachalytics{font-weight: 500;}
+.beachalytics:hover{background-color: #ffff00;}
 .analytics{font-weight: 500;}
-.analytics:hover{
-    background-color: #ffff00;
-}
+.analytics:hover{background-color: #ffff00;}
+.site-goal{}
+.site-goal:hover{
+    background-color: #ffff00;}
+.marketing{}
+.marketing:hover{}
+.conversion{}
 
 /* -------- Definitions --------*/
 .definition{}

@@ -1,5 +1,12 @@
 $(document).ready(function()
 {
+    $('.beachalytics').click(function(){
+       $('.item-name').text("BeachAlytics");
+        $('.item-description').html("A model and series of open-sourced reports to help non-technical people use data from Google Analytics."); 
+        $('.details').html("Go<span class='glyphicon glyphicon-chevron-right'></span>");
+        $('.beachalytics').css("background", "#ffff00");
+    });
+    
     $('.analytics').click(function(){
        $('.item-name').text("Google Analytics");
         $('.item-description').html("Free program that tracks and reports website traffic. Google Analytics is the most widely used web analytics service on the Internet."); 
@@ -9,9 +16,10 @@ $(document).ready(function()
     
     $('.site-goal').click(function(){
        $('.item-name').text("Website Goal");
-        $('.item-description').html("Direct Direct that comes directly to the site. (Typed into the url bar)"); 
+        $('.item-description').html("The goal of most sites is either to sell a product online, or lead generation. When "); 
         $('.details').html("Go<span class='glyphicon glyphicon-chevron-right'></span>");
         $('.site-goal').css("background", "#ffff00");
+        $('.three').css("background", "#ffff00");
     });
     
     $('.direct').click(function(){
