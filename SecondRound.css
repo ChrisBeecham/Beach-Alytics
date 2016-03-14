@@ -1,0 +1,104 @@
+.dotted {
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+  }
+
+.stripped {
+  background-image: -webkit-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+  background-image: -moz-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+  background-image: -o-repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+  background-image: repeating-linear-gradient(135deg, rgba(0,0,0,.3), rgba(0,0,0,.3) 1px, transparent 2px, transparent 2px, rgba(0,0,0,.3) 3px);
+  -webkit-background-size: 4px 4px;
+  -moz-background-size: 4px 4px;
+  background-size: 4px 4px;
+  }
+
+/* -------- Overview --------*/
+.overview{}
+.intro{
+    font-size:21px;
+    font-weight: 300;
+    line-height: 1.4;}
+.analytics{font-weight: 500;}
+.analytics:hover{
+    background-color: #ffff00;
+}
+
+/* -------- Definitions --------*/
+.definition{}
+.item-name{
+    display:inline-block;
+    font-size: 24px;
+    font-weight: 500;}
+item-name a{display:inline-block;}
+.item-description{font-size: 17.5px;}
+
+/* 
+Have channels & target have the same padding as '.container'.xs
+stripes need to be full width.
+*/
+
+/* -------- Incoming Channels --------*/
+.model{}
+.channels{display:inline-block;}
+.channel{
+    display:block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px;
+    height:60px;
+    width:600px;}
+.channel:hover{background-color: #f3f3f3;}
+.direct,.direct:hover{color: #ff0000;}
+.email,.email:hover{color: #ff9900;}
+.referral,.referral:hover{color:#0000ff;}
+.search,.search:hover{color:#51a351;}
+.ads,.ads:hover{color:#4a86e8;}
+
+
+
+/* -------- Target --------*/
+.target{
+    display:inline-block;
+position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: -300px;}
+.level{
+    position:absolute;
+  border-radius:50%;
+  border: 4px solid #666;}
+.level:hover{background-color: #ffff00;}
+.one{
+    width: 300px;
+  height: 300px;
+  background-color: #b7b7b7;
+  z-index: 1;
+  left: 50%;
+  margin-left: -150px;
+}
+.two{
+    width: 200px;
+  height: 200px;
+  background-color: #d9d9d9;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.three{
+width: 100px;
+  height: 100px;
+  background-color: #f3f3f3;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+}

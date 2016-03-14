@@ -1,53 +1,150 @@
-.direct{color: #BD362F;}
-.email{color: #F89406;}
-.referral{color:#0044CC;}
-.organic-search{color:#51A351;}
-.paid-ads{color:#0088CC;}
+.direct,.direct:hover{color: #ff0000;}
+.email,.email:hover{color: #ff9900;}
+.referral,.referral:hover{color:#0000ff;}
+.search,.search:hover{color:#51a351;}
+.ads,.ads:hover{color:#4a86e8;}
 
-.direct:hover{
-    color:aqua;
+/* Stripes, Traffic */
+.channels{
+    display:inline-block;
 }
-.email:hover{color: ;}
-.referral:hover{color:;}
-.social-media:hover{color:;}
-.organic-search:hover{color:;}
-.paid-ads:hover{color:;}
-
-th{text-align: right;}
-
-thead{text-align:;}
-
-.site-model img{
-    max-height:275px ;
+.stripe{
+    display:block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px;
+    height:60px;
+    width:600px;
 }
-
-
-/* PB's CSS for Cool Circle*/
+.stripe:hover{
+    background-color: #f3f3f3;
+    text-decoration: none;
+}
+.direct:active{
+    background-color: #ff0000;
+    color: #f3f3f3;
+}
+.email:active{
+    background-color: #ff9900;
+    color: #f3f3f3;
+}
+.referral:active{
+    background-color: #0000ff;
+    color: #f3f3f3;
+}
+.search:active{
+    background-color: #51a351;
+    color: #f3f3f3;
+}
+.ads:active{
+    background-color: #4a86e8;
+    color: #f3f3f3;
+}
+/* Target */
 .target{
+  display:inline-block;
   position: relative;
   width: 300px;
   height: 300px;
+  margin-left: -300px;
 }
-.target img {
+.level{
+  position:absolute;
   border-radius:50%;
-  position: absolute;
-  left: 50%;
+  border: 4px solid #666;
 }
+.level:hover{background-color: #777;}
+.level:active{
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );}
 .one {
+  width: 300px;
+  height: 300px;
+  background-color: #b7b7b7;
   z-index: 1;
+  left: 50%;
   margin-left: -150px;
 }
 .two {
+  width: 200px;
+  height: 200px;
+  background-color: #d9d9d9;
   z-index: 2;
   top: 50%;
+  left: 50%;
   margin-left: -100px;
   margin-top: -100px;
 }
 .three {
+  width: 100px;
+  height: 100px;
+  background-color: #f3f3f3;
   z-index: 3;
   top: 50%;
+  left: 50%;
   margin-left: -50px;
   margin-top: -50px;
 }
 
-.target img:hover{opacity:0.5;}
+/* Loaded form the internet */
+.stripe-1:hover{
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+.stripe-4:hover {
+  color: white;
+  background: repeating-linear-gradient(
+    -55deg,
+    #222,
+    #222 10px,
+    #333 10px,
+    #333 20px
+  );
+}
+.stripe-7:hover {
+  color: white;
+  background: repeating-radial-gradient(
+    circle,
+    purple,
+    purple 10px,
+    #4b026f 10px, 
+    #4b026f 20px
+  );
+}
+.grey-circles:hover {
+  color: white;
+  background: repeating-radial-gradient(
+    circle,
+    #b7b7b7,
+    #b7b7b7 10px,
+    #d9d9d9 10px, 
+    #d9d9d9 20px
+  );
+}
+.stripe-design:hover{
+    background: radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0; background-color: slategray;
+    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;}
+.cool-arrows:hover{ 
+    background:linear-gradient(45deg, #92baac 45px, transparent 45px)64px 64px,linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);background-color:#e1ebbd;background-size: 128px 128px;}
+.dotted {
+  padding: 2.25em 1.6875em;
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+  -webkit-background-size: 3px 3px;
+  -moz-background-size: 3px 3px;
+  background-size: 3px 3px;
+  }

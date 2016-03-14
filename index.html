@@ -6,13 +6,13 @@
     <link href="//favicon.ico" rel="icon" type="image/x-icon" />
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
     <link rel='stylesheet' href='css/bootstrap.min.css'>
-    <link rel='stylesheet' href='SecondRound.css'>
+    <link rel='stylesheet' href='BeachAlytics.css'>
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js'></script>
-    <script type='text/javascript' src='js/SecondRound.js'></script>
+    <script type='text/javascript' src='js/script.js'></script>
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="dotted navbar navbar-default">
+    <nav class="navbar navbar-default">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">BeachAlytics</a>
+          <a class="navbar-brand ads" href="#">BeachAlytics</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,59 +51,58 @@
       </div><!-- /.container -->
     </nav>
     
-    <!-- Overview -->
-    <div class='overview container'>
-        <div class='row'>
-            <p class='intro'>BeachAlytics makes it easy for website's to use information collected from <span class='analytics'>Google Analytics</span> to generate more sales!!! Discover what's impacting your <span class='site-goal'>site's goal</span>. Do more of what works, less or what doesn't.</p>
+    <!-- Site Overview -->
+    <div class='container'>
+        <div class='row overview'>
+            <p class='lead'>Use information collected on your website to generate more sales. Discover how each online componet is effecting your site, focus enery into whats working, do less of what's not.</p>
         </div>
     </div>
     
     <!-- Term Definition -->
-    <div class='container'>
-        <blockquote class='definition'>
-            <p class='item-name'>Click On Any Term to Learn More</p>
-                <a class='btn btn-success btn-lg details pull-right'>Go<span class='glyphicon glyphicon-chevron-right'></span>
-                </a>
-            <p class='item-description'>See how each piece works together</p>
-        </blockquote>
+    <div class='container definition'>
+            <blockquote>
+                <p class='h3'>Click On Any Term to Learn More</p>
+                    <a class='btn btn-success btn-lg pull-right'>Details 
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>
+                <p class=''>See how each piece works together</p>
+            </blockquote>
     </div>
     
-    
-    <!-- 
-1. Have padding on each side of the model, making it appear as if it's in a container, not container-fluid.
-2. Have .dotted apply to hover states & click states
-3. Have channels div be constantly hooked to the target-->
-    <!-- Model, Channels & Target -->
-    <div class='model container-fluid'>
+    <!-- Version 2 Incoming & Target -->
+    <div class='container'>
         <div class='row'>
-            <!-- Incoming Channels --> 
+            <!-- Incoming Channels -->
             <div class='channels'>
-                <a class='dotted direct channel '>Direct Traffic
+                <a class='direct stripe'>Direct Traffic
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-                <a class='dotted email channel'>&nbsp; &nbsp; Email
+                <a class='email stripe'>&nbsp; &nbsp; Email
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-                <a class='dotted referral channel'>Referral Traffic
+                <a class='referral stripe'>Referral
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-                <a class='dotted search channel'>&nbsp;&nbsp;Organic Search
+                <a class='search stripe'>&nbsp;&nbsp;Organic Search
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
-                <a class='dotted ads channel'>&nbsp;&nbsp;&nbsp;Paid Ads
+                <a class='ads stripe'>&nbsp;&nbsp;&nbsp;Paid Ads
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
             <!-- Target -->
             <div class="target pull-right">
-                <div class="dotted level one"></div>
-                <div class="dotted level two"></div>
-                <div class="dotted level three"></div>
-            </div> 
-        </div> <!-- .row -->
-    </div><!-- .model .container -->
+                <div class="level one"></div>
+                <div class="level two"></div>
+                <div class="level three"></div>
+            </div>
+        </div>
+    </div>
     
     
-    <!-- Form (For Interface Class) username, password,  repeat password, email, date--> 
+    <!-- Form (For Interface Class) username, password,  repeat password, email, date-->
+    
+    
+    
 </body>
 </html>
