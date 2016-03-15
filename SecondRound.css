@@ -19,21 +19,17 @@
   }
 
 /* -------- Overview --------*/
-.overview{}
-.intro{
+.overview{
     font-size:21px;
     font-weight: 300;
     line-height: 1.4;}
-.beachalytics{font-weight: 500;}
-.beachalytics:hover{background-color: #ffff00;}
+
+.overview span:hover,.overview span.highlighted{background-color: #ffff00;}
+
+.beachalytics{}
 .analytics{font-weight: 500;}
-.analytics:hover{background-color: #ffff00;}
+.work-together{}
 .site-goal{}
-.site-goal:hover{
-    background-color: #ffff00;}
-.marketing{}
-.marketing:hover{}
-.conversion{}
 
 /* -------- Definitions --------*/
 .definition{}
@@ -44,37 +40,55 @@
 item-name a{display:inline-block;}
 .item-description{font-size: 17.5px;}
 
-/* 
-Have channels & target have the same padding as '.container'.xs
-stripes need to be full width.
-*/
 
 /* -------- Incoming Channels --------*/
-.model{}
-.channels{display:inline-block;}
+.model{
+    width: 100%;
+    position: relative;
+    min-width:610px;}
+.channels{
+    display:inline-block;
+    width:84%;}
+
 .channel{
     display:block;
     font-size: 24px;
     font-weight: 500;
     line-height: 60px;
     height:60px;
-    width:600px;}
-.channel:hover{background-color: #f3f3f3;}
-.direct,.direct:hover{color: #ff0000;}
+    text-decoration: none;
+}
+.channel:hover{background-color:#f3f3f3;}
+.channel.highlighted{color:#f3f3f3;}
+
+.direct{}
+.direct,.direct:hover{color:#ff0000;}
+.direct.highlighted{background-color:#ff0000;}
+
+.email{}
 .email,.email:hover{color: #ff9900;}
+.email.highlighted{background:#ff9900;}
+
+.referral{}
 .referral,.referral:hover{color:#0000ff;}
+.referral.highlighted{background:#0000ff }
+
+.search{}
 .search,.search:hover{color:#51a351;}
+.search.highlighted{background:#51a351; }
+
+.ads{}
 .ads,.ads:hover{color:#4a86e8;}
-
-
+.ads.highlighted{background:#4a86e8;}
 
 /* -------- Target --------*/
 .target{
     display:inline-block;
-position: relative;
+position: absolute;
   width: 300px;
   height: 300px;
-  margin-left: -300px;}
+    right: 0;
+    top: 0;}
 .level{
     position:absolute;
   border-radius:50%;
