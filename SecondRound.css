@@ -17,19 +17,24 @@
   -moz-background-size: 4px 4px;
   background-size: 4px 4px;
   }
+/* -------- Navigation Bar --------*/
+.navbar-brand{
+    font-weight: 500;
+color:#4a86e8;}
 
 /* -------- Overview --------*/
-.overview{
+.overiew{}
+.overview h1{padding-top:none;}
+.overview p{
     font-size:21px;
     font-weight: 300;
     line-height: 1.4;}
 
 .overview span:hover,.overview span.highlighted{background-color: #ffff00;}
 
-.beachalytics{}
-.analytics{font-weight: 500;}
-.work-together{}
-.site-goal{}
+.beachalytics{text-decoration: underline;}
+.analytics{text-decoration: underline;}
+
 
 /* -------- Definitions --------*/
 .definition{}
@@ -49,7 +54,6 @@ item-name a{display:inline-block;}
 .channels{
     display:inline-block;
     width:84%;}
-
 .channel{
     display:block;
     font-size: 24px;
@@ -60,10 +64,12 @@ item-name a{display:inline-block;}
 }
 .channel:hover{background-color:#f3f3f3;}
 .channel.highlighted{color:#f3f3f3;}
+.channel.highlighted:hover{color:#f3f3f3;}
 
 .direct{}
 .direct,.direct:hover{color:#ff0000;}
 .direct.highlighted{background-color:#ff0000;}
+
 
 .email{}
 .email,.email:hover{color: #ff9900;}
@@ -84,16 +90,16 @@ item-name a{display:inline-block;}
 /* -------- Target --------*/
 .target{
     display:inline-block;
-position: absolute;
-  width: 300px;
-  height: 300px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
     right: 0;
     top: 0;}
 .level{
     position:absolute;
   border-radius:50%;
   border: 4px solid #666;}
-.level:hover{background-color: #ffff00;}
+.level:hover, .level.highlighted{background-color: #ffff00;}
 .one{
     width: 300px;
   height: 300px;
@@ -122,3 +128,16 @@ width: 100px;
   margin-left: -50px;
   margin-top: -50px;
 }
+
+/* -------- Filler --------*/
+.filler{
+    font-size:18px;
+    max-height:150px;
+    line-height: 150px;}
+.filler em{
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;}
+.filler2 {background-image:url(photos/skinny%20beach.png);}
+.filler3 {background-image:url(photos/orange%20and%20blue%20beach%20300.jpg);}
+.filler4 {background-image:url(photos/orange%20and%20blue%20beach%20300.jpg); }

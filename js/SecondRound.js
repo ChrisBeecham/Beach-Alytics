@@ -18,6 +18,7 @@ $(document).ready(function()
         $('.item-description').html("The goal of most sites is either to sell a product online, or lead generation. When "); 
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
+        $('.three').addClass("highlighted");
     });
     $('.work-together').click(function(){
        $('.item-name').text("Work Together");
@@ -25,7 +26,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     //Incoming Channels
     $('.direct').click(function(){
        $('.item-name').text("Direct Traffic");
@@ -34,7 +34,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     $('.email').click(function(){
        $('.item-name').text("Email Traffic");
         $('.item-description').html("Links from emails normally appear as <span class='direct'>Direct</span> links. Some special steps can be taken to track email, and have them appear as their own channel."); 
@@ -44,7 +43,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     $('.referral').click(function(){
         $('.item-name').text("Referral Traffic");
         $('.item-description').html("Traffic from other websites.");
@@ -54,7 +52,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     $('.search').click(function(){
        $('.item-name').text("Organic Search");
         $('.item-description').html("Traffic from search engine results page. (Google, Yahoo)"); 
@@ -64,7 +61,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     $('.ads').click(function(){
         $('.item-name').text("Paid Advertisements");
       $('.item-description').html("Traffic that arrives to the site via an advertisements. The two most common types of ads are 'Search' ads and 'Display' ads.)"); 
@@ -74,7 +70,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     //Target
     $('.one').click(function(){
         $('.item-name').html("Landing Pages");
@@ -83,7 +78,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     $('.two').click(function(){
         $('.item-name').text("Signup Pages");
         $('.item-description').html("The signup page represents the steps a user goes through to make a purchase on the site. Improving the funnel directly leads to more sales. Important metrics 1) Click Through Rate - How many people move from one step to another. 2) Conversion Rate - Percent of total visits that make it to the confirmation page.");
@@ -91,7 +85,6 @@ $(document).ready(function()
         $('.highlighted').removeClass("highlighted");
         $(this).addClass("highlighted");
     });
-    
     $('.three').click(function(){
         $('.item-name').text("Confirmation Pages");
         $('.item-description').html("The confirmation page is loaded directly after each sale, showing the customer their purchase. This page helps tie sales and revenue to marketing efforts.");
