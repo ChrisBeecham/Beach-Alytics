@@ -1,108 +1,129 @@
 <!DOCTYPE html>
-
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BeachAlytics</title>
-    <link href="//favicon.ico" rel="icon" type="image/x-icon" />
-    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
-    <link rel='stylesheet' href='css/bootstrap.min.css'>
-    <link rel='stylesheet' href='BeachAlytics.css'>
+    <link href="photos/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=">
+    <link rel='stylesheet' href='css/SecondRound.css'>
+    <!-- JavaScript -->
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js'></script>
-    <script type='text/javascript' src='js/script.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='js/SecondRound.js'></script>
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-75303441-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand ads" href="#">BeachAlytics</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-          </ul>
-          <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+     <!-- Navigation -->
+    <div class='filler beachnav container-fluid'>
+        <div class='row'>
+            <div class='container'>
+                <div class='nav-beachalytics col-xs-6'>
+                    <h2><em><span class='beachalytics'>BeachAlytics</span></em></h2>
+                    <h2><em>beta</em></h2>
+                </div>
+                <div class='col-xs-6 text-right'>
+                    <h2><em class=''>Get Started <span class="glyphicon glyphicon-chevron-right"></span></em></h2>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default">Go</button>
-          </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-    
-    <!-- Site Overview -->
-    <div class='container'>
-        <div class='row overview'>
-            <p class='lead'>Use information collected on your website to generate more sales. Discover how each online componet is effecting your site, focus enery into whats working, do less of what's not.</p>
         </div>
     </div>
     
-    <!-- Term Definition -->
-    <div class='container definition'>
-            <blockquote>
-                <p class='h3'>Click On Any Term to Learn More</p>
-                    <a class='btn btn-success btn-lg pull-right'>Details 
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    </a>
-                <p class=''>See how each piece works together</p>
-            </blockquote>
+    <!-- Overview -->
+    <div class='overview container'>
+        <h1><span class='beachalytics'>BeachAlytics</span> is the definitive online advertising guide for non-technical people.</h1>
+        <p>Advertise directly on Google, Yahoo and Facebook - No more need to pay a third party. Unless you want to... in which case, <span class='contact-us'>contact us.</span> :)</p>
     </div>
     
-    <!-- Version 2 Incoming & Target -->
+    <!-- Definitions -->
+    <div class='definition container'>
+        <blockquote class=''>
+            <p class='item-name'>Step 1. Learn the Basics of Google Analytics.</p>
+                <a href='signup.html' class='btn btn-success btn-lg details pull-right'>Get Started<span class='glyphicon glyphicon-chevron-right'></span>
+                </a>
+            <p class='item-description'>Click On Any Term to Learn More</p>
+        </blockquote>
+    </div>
+    
+    <!-- Model, Channels & Target -->
     <div class='container'>
         <div class='row'>
-            <!-- Incoming Channels -->
-            <div class='channels'>
-                <a class='direct stripe'>Direct Traffic
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-                <a class='email stripe'>&nbsp; &nbsp; Email
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-                <a class='referral stripe'>Referral
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-                <a class='search stripe'>&nbsp;&nbsp;Organic Search
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-                <a class='ads stripe'>&nbsp;&nbsp;&nbsp;Paid Ads
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+            <!-- Whole Model -->
+            <div class='model'>
+                <!-- Incoming Channels -->
+                <div class='channels'>
+                    <a class=' referral channel'>Referral Traffic
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    <a class='search channel'>&nbsp;&nbsp;Organic Search
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    <a class='ads channel'>&nbsp;&nbsp;&nbsp;Paid Ads
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    <a class='direct channel'>Direct Traffic
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                    <a class=' email channel'>&nbsp; &nbsp; Email
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <!-- Target -->
+                <div class="target">
+                    <div class=" level one"></div>
+                    <div class=" level two"></div>
+                    <div class=" level three"></div>
+                </div>
             </div>
-            <!-- Target -->
-            <div class="target pull-right">
-                <div class="level one"></div>
-                <div class="level two"></div>
-                <div class="level three"></div>
-            </div>
+        </div> <!-- .row -->
+    </div><!-- .container -->
+    
+    <!-- Reporting -->
+    <div class='filler reporting container-fluid'>
+        <div class='row'>
+            <h2 class='text-center'><em>-- Reporting --</em></h2>
         </div>
     </div>
     
+    <!-- Reports -->
+    <div class='container'>
+        <img class='img-responsive' src='photos/Screen%20Shot%202016-03-15%20at%203.46.16%20PM.png'/>
+    </div>
+        
+    <!-- Filler3 -->
+    <div class='filler filler3 container-fluid'>
+        <div class='row'>
+            <h2 class='text-center'><em>3. Plug in Your Own Data and Get Started</em></h2>
+        </div>
+    </div>
     
-    <!-- Form (For Interface Class) username, password,  repeat password, email, date-->
-    
-    
+    <!-- Footer -->
+    <div class='filler beach-footer container-fluid'>
+        <div class='row'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-xs-6'>
+                    </div>
+                    <div class='col-xs-6 text-right'>
+                        <h2><em class=''>Chris Beecham</em></h2>
+                        <h2><em class='phone-number'>(402) 570-6960</em></h2>
+                        <h2><em class=''>Chris.Beecham@gmail.com</em></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>

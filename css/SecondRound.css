@@ -1,0 +1,147 @@
+
+/* -------- Filler & BeachNav--------*/
+.filler{font-size:18px;}
+.filler em{
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;}
+.beachnav h2{display:inline-block;}
+.{display:inline-block;}
+.phone-number{display:inline-block;}
+.phone-number.highlighted{background-color: #ffff00;}
+
+.beachnav {
+    background-image:url(../photos/skinny%20beach.png);
+    background-size:;
+    background-position: ;
+    max-height:70px;
+    line-height:70px;}
+
+/* -------- Overview --------*/
+.overiew{}
+.overview h1{padding-top:none;}
+.overview p{
+    font-size:21px;
+    font-weight: 300;
+    line-height: 1.4;}
+.overview span:hover,.overview span.highlighted{background-color: #ffff00;}
+.beachalytics{text-decoration: underline;}
+.analytics{text-decoration: underline;}
+.contact-us{}
+
+/* -------- Definitions --------*/
+.definition{}
+.item-name{
+    display:inline-block;
+    font-size: 24px;
+    font-weight: 500;}
+item-name a{display:inline-block;}
+.item-description{
+    font-size: 17.5px;
+    font-weight:300;}
+
+/* -------- Incoming Channels --------*/
+.model{
+    width: 100%;
+    position: relative;
+    min-width:610px;
+    margin-bottom:15px;}
+
+.channels{
+    display:inline-block;
+    width:84%;}
+
+.channel{
+    display:block;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 60px;
+    height:60px;
+    text-decoration: none;}
+.channel:hover{
+    background-color:#f3f3f3;
+    text-decoration: none;}
+.channel.highlighted{color:#f3f3f3;}
+.channel.highlighted:hover{color:#f3f3f3;}
+
+.referral{}
+.referral,.referral:hover{color:#0000ff;}
+.referral.highlighted{background:#0000ff;}
+
+.search{}
+.search,.search:hover{color:#51a351;}
+.search.highlighted{background:#51a351; }
+
+.ads{}
+.ads,.ads:hover{color:#4a86e8;}
+.ads.highlighted{background:#4a86e8;}
+
+.direct{}
+.direct,.direct:hover{color:#ff0000;}
+.direct.highlighted{background-color:#ff0000;}
+
+.email{}
+.email,.email:hover{color: #ff9900;}
+.email.highlighted{background:#ff9900;}
+
+/* -------- Target --------*/
+.target{
+    display:inline-block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 0;
+    top: 0;}
+.level{
+    position:absolute;
+  border-radius:50%;
+  border: 4px solid #666;}
+.level:hover, .level.highlighted{background-color: #ffff00;}
+.one{
+    width: 300px;
+  height: 300px;
+  background-color: #b7b7b7;
+  z-index: 1;
+  left: 50%;
+  margin-left: -150px;
+}
+.two{
+    width: 200px;
+  height: 200px;
+  background-color: #d9d9d9;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.three{
+width: 100px;
+  height: 100px;
+  background-color: #f3f3f3;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+
+/* -------- Reporting -------- */
+.reporting {
+    background-image:url(../photos/beach20.jpg);
+    background-size:;
+    background-position:center;
+    height:70px;
+    line-height: 70px;
+}
+
+/* -------- Reports -------- */
+
+/* -------- Footer -------- */
+.beach-footer {
+    background-image:url(../photos/beach5.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height:200px;
+    line-height: 150px;
+}
