@@ -14,17 +14,22 @@
     background-image:url(../photos/skinny%20beach.png);
     background-size:;
     background-position: ;
-    max-height:70px;
-    line-height:70px;}
+}
 
 /* -------- Overview --------*/
 .overiew{}
-.overview h1{padding-top:none;}
+.overview h1{
+    padding-top:none;
+    background-color: white;
+}
 .overview p{
     font-size:21px;
     font-weight: 300;
-    line-height: 1.4;}
+    line-height: 1.4;
+    background: white;
+}
 .overview span:hover,.overview span.highlighted{background-color: #ffff00;}
+.white-background{background-color: white;}
 .beachalytics{text-decoration: underline;}
 .analytics{text-decoration: underline;}
 .contact-us{}
