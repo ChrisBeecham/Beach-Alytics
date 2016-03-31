@@ -25,7 +25,6 @@
 }
 .overview h1{
     padding-top:none;
-
 }
 .beachalytics{text-decoration: underline;}
 .overview span{background-color: white;}
@@ -35,6 +34,8 @@
     line-height: 1.4;
     background: white;
 }
+.beachalytics:hover,.beachalytics.highlighted{background-color: #ffff00;}
+.analytics:hover,.analytics.highlighted{background-color: #ffff00;}
 
 /* -------- Incoming Channels --------*/
 .model{
@@ -168,24 +169,27 @@
 /* -------- Optimizing Channels -------- */
 .paid-ads-table{
     background-color: #4a86e8;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:20px;
 }
+.ads-header{color:#4a86e8;}
+
 .organic-search-table{
     background-color: #51a351;
-    padding-top:10px;
-    padding-bottom:0px;
+    padding-top:20px;
 }
+.search-header{color:#51a351;}
+
 .referral-table{
     background-color: #0000ff;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:20px;
 }
+.referral-header{color:#0000ff;}
+
 .email-table{
     background-color: #ff9900;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:20px;
 }
+.email-header{color: #ff9900;}
 
 /* -------- BA Footer -------- */
 .ba-footer{}
