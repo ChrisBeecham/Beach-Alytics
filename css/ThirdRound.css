@@ -18,9 +18,9 @@
 
 /* -------- Overview --------*/
 .overview{
-    background-image:url(../photos/skinny%20beach.png);
+    background-image:url(../photos/7023060-sunny-tropical-beach-palms.jpg);
     background-size:;
-    background-position: ; 
+    background-position: left center;
     margin-top: -20px;
 }
 .overview h1{
@@ -124,7 +124,10 @@
     display:inline-block;
     font-size: 24px;
     font-weight: 500;}
-.item-name a{display:inline-block;}
+.item-name a{
+    display:inline-block;
+    margin-left:20px;
+}
 .item-description{
     font-size: 17.5px;
     font-weight:300;}
