@@ -27,7 +27,7 @@
 <body>
     
      <!-- Navigation -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -43,8 +43,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+            <!-- <li>
+                <p class="navbar-text">(402) 570-6960</p>
+            </li> -->
             <li>
-                <button type="button" class="btn btn-default navbar-btn">Free Website Audit</button>
+                <p class="navbar-btn">
+                    <a href='#contact-us' class="btn btn-default btn-success">Website Audit</a>
+                </p>
             </li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -55,29 +60,23 @@
     <div class='overview container-fluid'>
         <div class='row'>
             <div class='container'>
-                <h1><span>Online Advertising for Non-Technical People.</span></h1>
-                <p class='well'><span class='beachalytics'>BeachAlytics</span> is a system that makes it  easy to use <span class='analytics'>Google Analytics</span> to generate more leads and online sales!!! Discover how different factors work together to impact your site's goal. Advertise directly on Google, Yahoo and Facebook - No more need to pay a third party. Unless you want to... in which case, <span class='contact-us'>contact us</span>. :)</p>
+                <h1><span>"Are You Getting What You Think You're Getting???"</span></h1>
+                <p class='well'><span class='beachalytics'>BeachAlytics</span> makes it  easy to use <span class='analytics'>Google Analytics</span> to improve online advertising! Designed around the principle that any digital advertisement can only be understood as part of a larger system. <br><br>Learn how different factors work together to impact your site's goal. Compare online promotions, discover how each piece fits into the larger picture. Do more of what works, less of what doesn't.</p>
+                    
+                <!-- Advertise directly on Google, Yahoo and Facebook - No more need to pay a third party. Unless you want to... in which case, <span class='contact-us'>contact us</span>. :)</p> -->
             </div>
         </div>
     </div>
     
-
-
-    
     <!-- Model, Channels & Target -->
     <div class='container'>
-        <div class='row'>
-            <div class='row'>
-            <div class='col-sm-6'>
-                <h2>1. Double Down Marketing on Best Performing Channels.</h2>
-            </div>
-            <div class='col-sm-6 text-right'><h2>2. Increase Conversion Rate, Improve Drop Off Points.</h2></div>
-        </div>
+        <h2 class='text-center'>Goal: Get People to Your Site's Thank You Page
+            <br><small><em>Click on Any Piece to Learn More.</em></small></h2>
             <!--  Model -->
             <div class='model'>
                 <!-- Incoming Channels -->
                 <div class='channels'>
-                    <a class=' referral channel'>Referral Traffic
+                    <a class='referral channel'>Referral Traffic
                         <span class="glyphicon glyphicon-chevron-right"></span>
                     </a>
                     <a class='search channel'>&nbsp;&nbsp;Organic Search
@@ -95,9 +94,9 @@
                 </div>
                 <!-- Target -->
                 <div class="target">
-                    <div class=" level one"></div>
-                    <div class=" level two"></div>
-                    <div class=" level three"></div>
+                    <img class="level one" src='photos/Landing%20Page%20Target.png' />
+                    <img class="level two" src='photos/Signup%20Pages%20Text.png'/>
+                    <img class="level three" src='photos/Thank%20You%20Page%20Target%20(1).png'/>
                 </div>
             </div> <!-- .model -->
         </div> <!-- .row -->
@@ -111,88 +110,156 @@
         </blockquote>
     </div>
     
-    <div class="container text-center">
-        <p><em>Any individual piece can only be understood as part of a larger system.</em></p>
-    </div>
-    
     <!-- Reporting Overview -->
     <a name='reporting'></a>
     <div class='bar-graphs container-fluid'>
-        <h2 class='text-center'><span>3 - Track Progress. See What's Having the Biggest Impact.</span></h2>
+        <h2 class='text-center'><span>Track Progress. See What's Having the Biggest Impact.</span></h2>
         <div class='row'>
-            <div class='container well white-background'>
-                <div class='row text-center'>
-                    <div class='col-sm-6'>
-                        <h3>Website Traffic <small>Site Users and Site Visits</small></h3>
-                        <img src='photos/Web%20Traffic%20Bar%20Graph.png' class='img-responsive' alt='Traffic (Sessions) bar chart by month'/>
+            <div class='container text-center well white-background'>
+                <h3 class='text-center'>See How Each Marketing Channel Stacks Up</h3>
+                <div class='row'>
+                    <div class='col-sm-9'>
+                        <table class="table table-sm table-striped text-left">
+                          <thead class="thead-inverse text-right">
+                            <tr>
+                              <th>&nbsp;</th>
+                              <th colspan="2" class="text-center">Site Visits</th>
+                              <th colspan="2" class="text-center">Signup Page Visits (B#)</th>
+                              <th colspan="2" class="text-center">Leads (C#)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row" class='search-header text-right'>Organic Search</th>
+                              <th class='text-right'>18,600</th>
+                              <td>52%</td>
+                              <th class='text-right'>2,476</th>
+                              <td>53%</td>
+                              <th class='text-right'>127</th>
+                              <td>41%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class='direct-header text-right'>Direct</th>
+                              <th class='text-right'>8,886</th>
+                              <td>25%</td>
+                              <th class='text-right'>1,422</th>
+                              <td>31%</td>
+                              <th class='text-right'>51</th>
+                              <td>17%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class='referral-header text-right'>Referral</th>
+                              <th class='text-right'>7,686</th>
+                              <td>21%</td>
+                              <th class='text-right'>630</th>
+                              <td>14%</td>
+                              <th class='text-right'>56</th>
+                              <td>18%</td>
+                            </tr> 
+                            <tr>
+                              <th scope="row" class='email-header text-right'>Email</th>
+                              <th class='text-right'>932</th>
+                              <td>3%</td>
+                              <th class='text-right'>149</th>
+                              <td>3%</td>
+                              <th class='text-right'>12</th>
+                              <td>4%</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class='paid-ads-header text-right'>Paid Ads</th>
+                              <th class='text-right'>801</th>
+                              <td>2%</td>
+                              <th class='text-right'>128</th>
+                              <td>3%</td>
+                              <th class='text-right'>61</th>
+                              <td>20%</td>
+                            </tr>
+                          </tbody>
+                        </table>
                     </div>
-                    <div class='col-sm-6'>
-                        <h3>Website Goal <small>New Leads, Sales, Donations...</small></h3>
-                        <img src='photos/Conversion%20Bar%20Graph.png' class='img-responsive' alt='Traffic (Sessions) bar chart by month'/>
+                    <div class='col-sm-3 text-center'>
+                        <img class='img-responsive abc-target' src='photos/ABC%20Simple%20Target%20(1).png'/>
                     </div>
                 </div>
-                <h3 class='text-center'>See How Each Marketing Channel Stacks Up</h3>
-                <img src='photos/Channel%20Overview%20Table.png' alt='Channel Breakdown' class='text-center img-responsive'/>
-                <!-- <p class='text-center'><em>Any individual piece can only be understood as part of a whole</em></p> -->
-                <!-- don't show cost/ in this table. all rows should be shown as a percnet -->
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <h3>Website Goal <small>Leads, Sales, Donations...</small></h3>
+                        <img class='img-responsive' alt='' src='photos/Conversion%20Bar%20Graph.png'/>
+                    </div>
+                    <div class='col-sm-6'>
+                        <h3>Website Traffic <small>Users or Site Visits</small></h3>
+                        <img class='img-responsive' alt='' src='photos/Web%20Traffic%20Bar%20Graph.png'/>
+                    </div>
+                </div>
             </div>
         </div>
         <h2 class='text-center'><span>Using This Format, Optimizing Marketing is Easy.<br>Do More of What Works, Less of What Doesn't. </span></h2>
     </div>
     
+    <div class='optimizing-channels'>
     <!-- Paid Ads -->
     <a name='paid-ads-table'></a>
     <div class='container-fluid paid-ads-table'>
         <div class='row'>
             <div class='container well white-background'>
-                <div class='col-sm-6'>
+                <div class='col-sm-5'>
                     <h3>Paid Advertisements</h3>
                     <p>Figure out the cost/lead of each online advertisements. Move money from ads with a high cost/lead to better performing campaigns.</p>
-                    <ul>
+                    <!-- <ul>
                         <li>Have a level playing field for comparing ads run by third party companies.</li>
                         <li>When running multiple ads, check to see which one is the most effective.</li>
-                    </ul>
+                    </ul> -->
                 </div>
-                <div class='col-sm-6'>
+                <div class='col-sm-7'>
                     <table class="table table-sm table-striped">
                       <thead class="thead-inverse">
                         <tr>
-                          <th class='ads-header text-right'>Paid Search</th>
+                          <th class='paid-ads-header text-right'>Paid Ads</th>
                           <th>Spend</th>
-                          <th>Sessions</th>
-                          <th>Leads</th>
+                          <th colspan="2" class="text-center">Sessions</th>
+                          <th colspan="2" class="text-center">Leads</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td scope="row" class='text-right'>Competitors</td>
-                          <td>$2,713</td>
-                          <td>400 ($7)</td>
-                          <td>25 ($109)</td>
+                          <th>$2,713</th>
+                            <th class='text-right'>400</th>
+                              <td>$7</td>
+                            <th class='text-right'>25</th>
+                              <td>$109</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>Political Issues</td>
-                          <td>$578</td>
-                          <td>100 ($6)</td>
-                          <td>30 ($19)</td>
+                            <th>$578</th>
+                            <th class='text-right'>100</th>
+                              <td>$6</td>
+                            <th class='text-right'>30</th>
+                              <td>$19</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>Cities</td>
-                          <td>$64</td>
-                          <td>12 ($5)</td>
-                          <td>1 ($64)</td>
+                            <th>$64</th>
+                            <th class='text-right'>12</th>
+                              <td>$5</td>
+                            <th class='text-right'>1</th>
+                              <td>$64</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>States</td>
-                          <td>$51</td>
-                          <td>14 ($4)</td>
-                          <td>0</td>
+                            <th>$51</th>
+                            <th class='text-right'>14</th>
+                              <td>$4</td>
+                            <th class='text-right'>0</th>
+                              <td>&nbsp;</td>
                         </tr>
                         <tr>
                           <th scope="row" class='text-right'>TOTAL</th>
-                          <th>$3,406</th>
-                          <th>526 ($7)</th>
-                          <th>56 ($61)</th>
+                            <th>$3,406</th>
+                            <th class='text-right'>526</th>
+                              <th>$7</th>
+                            <th class='text-right'>56</th>
+                              <th>$61</th>
                         </tr>
                       </tbody>
                     </table>
@@ -206,51 +273,61 @@
     <div class='container-fluid organic-search-table'>
         <div class='row'>
             <div class='container well white-background'>
-                <div class='col-sm-6'>
+                <div class='col-sm-7'>
                     <table class="table table-sm table-striped">
                       <thead class="thead-inverse">
                         <tr>
                           <th class='search-header text-right'>Organic Search</th>
-                          <th>Sessions</th>
-                          <th>Leads</th>
+                          <th colspan="2" class="text-center">Sessions</th>
+                          <th colspan="2" class="text-center">Leads</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td scope="row" class='text-right'>Homepage</td>
-                          <td>4,454 (58%)</td>
-                          <td>20 (61%)</td>
+                          <th class="text-right">4,454</th>
+                          <td>58%</td>
+                          <th class="text-right">20</th>
+                          <td>61%</td>
                         </tr>
                         <tr>
-                          <td scope="row" class='text-right'>Our Polocies</td>
-                          <td>2,223 (29%)</td>
-                          <td>10 (30%)</td>
+                          <td scope="row" class='text-right'>Policies</td>
+                          <th class="text-right">2,223</th>
+                          <td>29%</td>
+                          <th class="text-right">10</th>
+                          <td>30%</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>Blog Articles</td>
-                          <td>95 (12%)</td>
-                          <td>3 (9%)</td>
+                          <th class="text-right">95</th>
+                          <td>12%</td>
+                          <th class="text-right">3</th>
+                          <td>9%</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'><em>All Other Pages</em></td>
-                          <td>56 (1%)</td>
-                          <td>0</td>
+                          <th class="text-right">56</th>
+                          <td>1%</td>
+                          <th class="text-right">0</th>
+                          <td>&nbsp;</td>
                         </tr>
                         <tr>
                           <th scope="row" class='text-right'>TOTAL</th>
-                          <th>7,686</th>
-                          <th>33</th>
+                          <th class="text-right">7,686</th>
+                          <th>&nbsp;</th>
+                          <th class="text-right">33</th>
+                          <th>&nbsp;</th>
                         </tr>
                       </tbody>
                     </table>
                 </div>
-                <div class='col-sm-6'>
+                <div class='col-sm-5'>
                     <h3>Organic Search</h3>
                     <p>Learn which parts of your site are attract visitors. Copy elements of page's that perform well. Get an idea of which pages to create next.</p>
-                    <ul>
+                    <!-- <ul>
                         <li>Don't need to learn every confusing details of how search engines work.</li>
                         <li>Learn which search engines bring your site the most visitors.</li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
@@ -261,48 +338,58 @@
     <div class='container-fluid referral-table'>
         <div class='row'>
             <div class='container well white-background'>
-                <div class='col-sm-6'>
+                <div class='col-sm-5'>
                    <h3>Referral Traffic</h3>
                     <p>Figure out how many sales are a result of social media and links from other sites. Find out the best way to spend your marketing time and energy.</p>
-                    <ul>
+                    <!-- <ul>
                         <li>Dig down to see which social media posts had the best outcome.</li>
                         <li>Check if visitors from news articles are taking action on your site, or just visiting.</li>
-                    </ul>
+                    </ul> -->
                 </div>
-                <div class='col-sm-6'>
+                <div class='col-sm-7'>
                     <table class="table table-sm table-striped">
                       <thead class="thead-inverse">
                         <tr>
                           <th class='referral-header text-right'>Referral Traffic</th>
-                          <th>Sessions</th>
-                          <th>Leads</th>
+                          <th colspan="2" class="text-center">Sessions</th>
+                          <th colspan="2" class="text-center">Leads</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td scope="row" class='text-right'>Social Media</td>
-                          <td>4,454 (50%)</td>
-                          <td>22 (73%)</td>
+                          <th class="text-right">4,454</th>
+                            <td>50%</td>
+                          <th class="text-right">22</th>
+                            <td>73%</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>News Articles</td>
-                          <td>2,223 (25%)</td>
-                          <td>1 (3%)</td>
+                          <th class="text-right">2,223</th>
+                            <td>25%</td>
+                          <th class="text-right">1</th>
+                            <td>3%</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>Forums</td>
-                          <td>2,153 (24%)</td>
-                          <td>7 (23%)</td>
+                          <th class="text-right">2,153</th>
+                            <td>24%</td>
+                          <th class="text-right">7</th>
+                            <td>23%</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'><em>All Other Sites</em></td>
-                          <td>56 (1%)</td>
-                          <td>0</td>
+                          <th class="text-right">56</th>
+                            <td>1%</td>
+                          <th class="text-right">0</th>
+                            <td>&nbsp;</td>
                         </tr>
                         <tr>
                           <th scope="row" class='text-right'>TOTAL</th>
-                          <th>8,686</th>
-                          <th>30</th>
+                          <th class="text-right">8,686</th>
+                            <th>&nbsp;</th>
+                          <th class="text-right">30</th>
+                            <th>&nbsp;</th>
                         </tr>
                       </tbody>
                     </table>
@@ -316,51 +403,87 @@
     <div class='container-fluid email-table'>
         <div class='row'>
             <div class='container well white-background'>
-                <div class='col-sm-6'>
+                <div class='col-sm-7'>
                     <table class="table table-sm table-striped">
                       <thead class="thead-inverse">
                         <tr>
                           <th class='email-header text-right'>Email</th>
                           <th>Spend</th>
-                          <th>Sessions</th>
-                          <th>Leads</th>
+                          <th colspan="2" class="text-center">Sessions</th>
+                          <th colspan="2" class="text-center">Leads</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td scope="row" class='text-right'>Clinton List</td>
-                          <td>$520</td>
-                          <td>605 ($1)</td>
-                          <td>12 ($43)</td>
+                          <th>$520</th>
+                            <th class='text-right'>605</th>
+                              <td>$1</td>
+                            <th class='text-right'>12</th>
+                              <td>$43</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>Trump List</td>
-                          <td>$390</td>
-                          <td>327 ($2)</td>
-                          <td>0</td>
+                          <th>$390</th>
+                            <th class='text-right'>327</th>
+                              <td>$2</td>
+                            <th class='text-right'>0</th>
+                              <td>&nbsp;</td>
                         </tr>
                         <tr>
                           <td scope="row" class='text-right'>Sanders List</td>
-                          <td>$690</td>
-                          <td>300 ($2)</td>
-                          <td>5 ($138)</td>
+                          <th>$690</th>
+                            <th class='text-right'>300</th>
+                              <td>$2</td>
+                            <th class='text-right'>5</th>
+                              <td>$138</td>
                         </tr>
                         <tr>
                           <th scope="row" class='text-right'>TOTAL</th>
-                          <th>$1,600</th>
-                          <th>932 ($2)</th>
-                          <th>12 ($133)</th>
+                            <th>$1,600</th>
+                            <th class='text-right'>932</th>
+                              <td>$2</td>
+                            <th class='text-right'>12</th>
+                              <td>$133</td>
                         </tr>
                       </tbody>
                     </table>
                 </div>
-                <div class='col-sm-6'>
+                <div class='col-sm-5'>
                     <h3>Email Campaigns</h3>
                     <p>Set up email tracking to compare messages to other marketing channels. Discover which email audiences spend the most on your site.</p>
-                    <ul>
+                    <!-- <ul>
                         <li>Get an idea of the value of your email list.</li>
                         <li>Compare performance of sent messages.</li>
-                    </ul>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Our Services -->
+    <div class="services container-fluid">
+        <div class="row">
+            <div class="container">
+                <h2 class="text-center"><span class="white-background">Our Services</span></h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="photos/Blue%20Clear%20Audit.png" class="img-responsive" alt="Computer With Chart">
+                        <h3 class="text-center"><span class="white-background">Analytic Audit</span></h3>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="photos/Blue%20Clear%20Analytics%20SetUp.png" class="img-responsive" alt="Computer With Chart">
+                        <h3 class="text-center"><span class="white-background">Google Analytics<br>Set Up</span></h3>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="photos/Blue%20Clear%20Advertisement.png" class="img-responsive" alt="Computer With Chart">
+                        <h3 class="text-center"><span class="white-background">Online Advertising</span></h3>
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="photos/Blue%20Clear%20Folder.png" class="img-responsive" alt="Computer With Chart">
+                        <h3 class="text-center"><span class="white-background">Monthly Reports</span></h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -370,12 +493,11 @@
     <a name="contact-us"></a>
    <div class='container'>
         <div class='row text-center'>
-            <div class='col-xs-6'>
+            <div class='col-sm-6'>
                 <h2>"Are You Getting What You Think You're Getting???"</h2>
-                <h2>Get Started With a FREE Advertising Audit</h2>
-                <p>Thank you for visiting the brand new BeachAlytics website. Tell Your Friends. </p>
+                <h2>Let's Talk</h2>
             </div>
-            <div class='col-xs-6'>
+            <div class='col-sm-6'>
                <div id="wufoo-zcvmmxa0dbun81">
 Fill out my <a href="https://chrisbeecham.wufoo.com/forms/zcvmmxa0dbun81">online form</a>.
 </div>
@@ -399,6 +521,7 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
             </div>
         </div>
     </div>
+        
     
     <!-- BA Footer -->
     <div class='ba-footer container-fluid well'>

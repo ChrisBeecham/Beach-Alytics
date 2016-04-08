@@ -1,38 +1,20 @@
-
-/* -------- Filler & BeachNav--------
-.filler{font-size:18px;}
-.filler em{
-    background: white;
-    padding-left: 5px;
-    padding-right: 5px;}
-.beachnav h2{display:inline-block;}
-.{display:inline-block;}
-.phone-number{display:inline-block;}
-.phone-number.highlighted{background-color: #ffff00;}
-
-.beachnav {
-    background-image:url(../photos/skinny%20beach.png);
-    background-size:;
-    background-position: ;
-} */
-
-/* -------- Overview --------*/
 .overview{
     background-image:url(../photos/7023060-sunny-tropical-beach-palms.jpg);
     background-size:;
     background-position: left center;
-    margin-top: -20px;
+    margin-top: 50px;
 }
 .overview h1{
     padding-top:none;
 }
 .beachalytics{text-decoration: underline;}
+.analytics{text-decoration: underline;}
 .overview span{background-color: white;}
 .overview p{
-    font-size:18px;
+    font-size:20px;
     font-weight: 300;
     line-height: 1.4;
-    background: white;
+    background: white;    
 }
 .beachalytics:hover,.beachalytics.highlighted{background-color: #ffff00;}
 .analytics:hover,.analytics.highlighted{background-color: #ffff00;}
@@ -55,6 +37,7 @@
     line-height: 60px;
     height:60px;
     text-decoration: none;
+    padding-left: 5px;
 }
 .channel:hover{
     background-color:#f3f3f3;
@@ -89,7 +72,8 @@
     position:absolute;
     border-radius:50%;
     border: 4px solid #666;}
-.level:hover, .level.highlighted{background-color: #ffff00;}
+.level:hover{background-color: #ffff00;}
+.level.highlighted{background-color: #ffff00;}
 .one{
     width: 300px;
     height: 300px;
@@ -160,18 +144,27 @@
     padding-left: 5px;
     padding-right: 5px;
 }
-.bar-graphs h2{
-}
+.bar-graphs h2{}
 .white-background{background-color: white;}
-.bar-graphs img{}
 .bar-graphs h3{background-color: white;}
+.abc-target{
+    height: 210px;
+    width:210px;
+    margin: auto;
+    margin-top:20px;
+}
 
 /* -------- Optimizing Channels -------- */
+.optimizing-channels p{
+    font-size: 17.5px;
+    font-weight:300;
+}
 .paid-ads-table{
     background-color: #4a86e8;
     padding-top:20px;
 }
-.ads-header{color:#4a86e8;}
+
+.paid-ads-header{color:#4a86e8;}
 
 .organic-search-table{
     background-color: #51a351;
@@ -191,8 +184,21 @@
 }
 .email-header{color: #ff9900;}
 
+.direct-header{color:#ff0000;}
+
+/* -------- Our Services -------- */
+.services{
+    background-image:url(../photos/Beaches-Cool-Backgrounds.jpg);
+    background-size:;
+    background-position: left bottom;
+}
+.services span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /* -------- BA Footer -------- */
-.ba-footer{}
+.ba-footer{margin-bottom: -20px;}
 .ba-footer p{
     font-size:18px;
     font-weight: 300;
